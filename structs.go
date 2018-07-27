@@ -22,8 +22,6 @@ type Textbox struct {
 // APIRequest a request object to create a new meme on the ImgFlip API
 type APIRequest struct {
 	TemplateID string    `json:"template_id"`
-	Text0      string    `json:"text0"`
-	Text1      string    `json:"text1"`
 	Boxes      []Textbox `json:"boxes"`
 }
 

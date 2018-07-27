@@ -9,8 +9,6 @@ A straight-forward and basic library for creating memes with the imgflip.com API
 
     request := goflip.APIRequest{
 		TemplateID: "61582",
-		Text0:      "",
-		Text1:      "",
 		Boxes: []goflip.Textbox{
 			goflip.Textbox{
 				Text:         "Oh, you thought you could make your own memes?",

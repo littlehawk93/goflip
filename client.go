@@ -33,8 +33,8 @@ func (me *Client) SendRequest(request *APIRequest) (*APIResponse, error) {
 	form.Add("template_id", request.TemplateID)
 	form.Add("username", me.username)
 	form.Add("password", me.password)
-	form.Add("text0", request.Text0)
-	form.Add("text1", request.Text1)
+	form.Add("text0", "")
+	form.Add("text1", "")
 
 	for i, box := range request.Boxes {
 
